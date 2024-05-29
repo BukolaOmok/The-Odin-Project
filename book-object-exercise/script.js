@@ -12,7 +12,7 @@ Book.prototype.info = function () {
 let book1 = new Book("Let Me In", "Claire McGowan", 500, "read");
 let bookInfo = book1.info();
 console.log(bookInfo);
-
+console.log(book.title)
 
 
 function Player(name, marker) {
